@@ -7,7 +7,6 @@ import com.ant.managers.OutputManager;
 import com.ant.models.User;
 
 public class UsersScreen implements Screen{
-	
 	private Class userClass = User.class;
 	
 	public void showUser(User user) {
