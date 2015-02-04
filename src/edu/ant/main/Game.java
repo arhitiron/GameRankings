@@ -3,6 +3,7 @@ package edu.ant.main;
 import edu.ant.managers.FileManager;
 import edu.ant.managers.Manager;
 import edu.ant.managers.MatchesManager;
+import edu.ant.managers.OutputFTLManager;
 import edu.ant.managers.OutputManager;
 import edu.ant.managers.UserManager;
 
@@ -15,7 +16,8 @@ public class Game {
 	public static void main(String[] args) {
 		initManagers();
 		System.out.println("Application started.");
-		outputManager.start();
+//		outputManager.start();
+		(new OutputFTLManager()).printToFTL();
 	}
 	
 	private static void initManagers() {
