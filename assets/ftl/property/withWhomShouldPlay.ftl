@@ -1,0 +1,1 @@
+<#list user.withWhomShouldPlay as withWhomShouldPlay>${withWhomShouldPlay.name}<#if withWhomShouldPlay_has_next>,</#if> </#list>

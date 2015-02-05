@@ -1,0 +1,1 @@
+<#list user.whoLost as lost>${lost.name}<#if lost_has_next>,</#if> </#list>

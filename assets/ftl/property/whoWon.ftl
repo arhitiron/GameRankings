@@ -1,0 +1,1 @@
+<#list user.whoWon as win>${win.name}<#if win_has_next>,</#if> </#list>
